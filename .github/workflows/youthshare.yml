@@ -14,7 +14,7 @@ jobs:
 
       - name: Checkout
         run: |
-          git clone https://github.com/caixukun112/js.git ~/js
+          git clone https://github.com/JONREAN2/js2.git ~/js
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
