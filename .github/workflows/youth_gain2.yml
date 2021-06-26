@@ -3,7 +3,7 @@ name: 中青浏览赚&看看赚
 on:
   workflow_dispatch:
   schedule:
-     - cron: '10 10,22 * * *'
+     - cron: '10 5,10,15,22 * * *'
   watch:
     types: started
 
@@ -26,4 +26,4 @@ jobs:
           npm install
       - name: '运行 【中青浏览赚&看看赚】'
         run: |
-          node youth_gain.js
+          node youth_gain2.js
